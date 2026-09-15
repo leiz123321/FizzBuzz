@@ -11,7 +11,7 @@ class FizzBuzzWhile {
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    static void doFizzBuzz(int i) {
 
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
